@@ -1,4 +1,3 @@
-.
 Using PHP to Connect to Microsoft SQL Server
 
 Introduction | Getting Started | Limitations | More on Data Types | Troubleshooting
