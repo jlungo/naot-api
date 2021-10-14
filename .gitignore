@@ -1,2 +1,8 @@
 conn.php
 /nbproject/private/
+queries_SAMPLE.php
+odbc.php
+odbc-SAMPLE.php
+msqueries-SAMPLE.php
+database-SAMPLE.php
+config.php
