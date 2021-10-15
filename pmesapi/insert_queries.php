@@ -17,7 +17,7 @@ if (isset($code) && strlen($code) > 0){
         echo '<br> Failed to insert  indicator '.  $code.' '.$period.' '.$value.' <br>';
     }
 }else{
-    $datsourceturl = 'http://10.0.0.8';		
+    $datsourceturl = 'http://10.0.0.8/teammateapi/read_queries.php';		
     echo '<meta http-equiv = "refresh" content ="0; url = '.$datsourceturl.'">';
 
 }

@@ -13,7 +13,7 @@ $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
 //send the retrieved values to the dashboard_datamart
-$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/datamart/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
+$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/pmesapi/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
 echo $htmlhead ;
 
 # Indictor 2
@@ -32,7 +32,7 @@ $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
 //send the retrieved values to the dashboard_datamart
-$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/datamart/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
+$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/pmesapi/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
 echo $htmlhead ;
 
 # Indicator 4
@@ -41,7 +41,7 @@ $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
 //send the retrieved values to the dashboard_datamart
-$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/datamart/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
+$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/pmesapi/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
 echo $htmlhead ;
 
 # Indicator 5
@@ -50,7 +50,7 @@ $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
 //send the retrieved values to the dashboard_datamart
-$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/datamart/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
+$htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/pmesapi/insert_queries.php?code=' . $code .'&period='.$period .'&value='.$value.'">';
 echo $htmlhead ;
 
 //Close the database:
