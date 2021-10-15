@@ -17,7 +17,7 @@ $htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/dat
 echo $htmlhead ;
 
 # Indictor 2
-$code = 'Indicator 1';
+$code = 'Indicator 2';
 $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
@@ -27,7 +27,7 @@ echo $htmlhead ;
 
 
 # Indicator 3
-$code = 'Indicator 1';
+$code = 'Indicator 3';
 $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
@@ -36,7 +36,7 @@ $htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/dat
 echo $htmlhead ;
 
 # Indicator 4
-$code = 'Indicator 1';
+$code = 'Indicator 4';
 $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
@@ -45,7 +45,7 @@ $htmlhead = '<meta http-equiv="refresh" content="0; url=' . $datamarturl . '/dat
 echo $htmlhead ;
 
 # Indicator 5
-$code = 'Indicator 1';
+$code = 'Indicator 5';
 $period = date('Y-M');
 $accounts = $db->query("SELECT * FROM accounts WHERE PERIOD ='period'");
 $value = $accounts->numRows();
