@@ -6,3 +6,5 @@ odbc-SAMPLE.php
 msqueries-SAMPLE.php
 database-SAMPLE.php
 config.php
+.DS_Store
+*.DS_Store
